@@ -1,0 +1,26 @@
+:root {
+    --dark-green: #044808;
+    --light-green: #7bbd78;
+    --yellow: #ff9d35;
+    --gray-dark: #263a41;
+    --gray-light: #ccc;
+    --white: white;
+    --black: black;
+    --primary-font: "Montserrat";
+    --wrapper: 192rem;
+    --container: 117rem;
+}
+
+.wrapper {
+    max-width: var(--wrapper);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: var(--container);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
